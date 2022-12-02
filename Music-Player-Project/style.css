@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #2d2c2b;
+}
+
+.container {
+    width: 400px;
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#card-again {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#card-again button {
+    background-color: #2d2c2b;
+    color: #fff;
+}
+
+.volume-container i {
+    margin-right: 5px;
+}
+
+#volume, #music-list {
+    cursor: pointer;
+}
+
+li.playing {
+    background-color: #0b5eb7;
+    color: #fff;
+}
+
+#music-details p {
+    font-weight: bold;  
+}
